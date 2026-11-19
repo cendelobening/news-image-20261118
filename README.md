@@ -8,7 +8,17 @@ A newspaper front page that sums up Wednesday 18 November 2026's world
 news in a single 1024×1024 image. `entry.png` is drawn entirely by a
 pure-stdlib Python generator (custom 5×7 bitmap font, hand-rolled PNG
 encoder — no Pillow, no image libraries), and `main.py` validates the
-image and copies it to the output directory.
+image and copies it to the output directory. The image is generated
+by `gen.py` — regenerate it any time with `python3 gen.py entry.png`.
+
+## Design (v2)
+
+A bold broadsheet redesign: a black masthead with cream type and gold
+rules over a red EXTRA date band, a dark-red radar lead panel for the
+Iran–US strikes (concentric scope rings, a gold sweep, drone and
+missile art, and story chips), and a dense grid of four framed panels
+with flag, bridge and temple art, closed by a Gaza aid strip and a
+ruled footer.
 
 ## The six stories
 
